@@ -12,6 +12,7 @@ import GithubInfoLoader from './Componenets/Github/GithubInfoLoader.jsx'
 import User from './Componenets/User/User.jsx'
 import Login from './Componenets/Login/Login.jsx'
 import Start from './Componenets/Start/Start.jsx'
+import { Analytics } from "@vercel/analytics/react"
 
 const router =createBrowserRouter(
   createRoutesFromElements(
@@ -43,5 +44,6 @@ const router =createBrowserRouter(
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router ={router}/>
+    <Analytics/>
   </StrictMode>,
 )
