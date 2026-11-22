@@ -23,8 +23,8 @@ const router =createBrowserRouter(
       loader={GithubInfoLoader} 
       path='github' element={<Github/>}  />
       <Route path='user/:userId' element={<User/>}/>
-      <Route path='/login' element={<Login/>}/>
-      <Route path='/start' element={<Start/>}/>
+      <Route path='login' element={<Login/>}/>
+      <Route path='start' element={<Start/>}/>
     </Route>
 
   )
