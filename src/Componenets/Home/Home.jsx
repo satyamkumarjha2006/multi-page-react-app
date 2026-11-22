@@ -33,12 +33,12 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="picture1.png" alt="image1" />
+                    <img className="w-96" src="/picture1.png" alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="picture3.png" alt="image2" />
+                <img className="sm:w-96 w-48" src="/picture3.png" alt="image2" />
             </div>
 
             <h1 className="text-center text-transparent bg-linear-to-r from-purple-600 to-pink-600 bg-clip-text text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
