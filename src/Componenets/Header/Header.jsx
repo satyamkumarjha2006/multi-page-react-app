@@ -32,7 +32,7 @@ export default function Header() {
                         className="jflex justify-between items-center w-full lg:w-auto lg:order-1"
                         id="mobile-menu-2"
                     >
-                        <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <ul className="flex flex-row flex-wrap itmes-center gap-2 mt-4 font-medium lg:mt-0 lg:space-x-8 ">
                             <li>
                                 <NavLink
                                     to="/"
